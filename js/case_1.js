@@ -3,12 +3,11 @@ var x = true;
 
 var changer = function () {
     if (x == true) {
-        var content = document.querySelector('span');
-        content.innerHTML = "Привет";
+        but.innerHTML = "Привет";
         x = false;
     }  else {
-        var content = document.querySelector('span');
-        content.innerHTML = "Hello";
+ 
+        but.innerHTML = "Click me!";
         x = true;
     }
 }
